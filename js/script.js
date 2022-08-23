@@ -28,7 +28,7 @@ document.getElementById("player-btn-6").addEventListener("click", function () {
   setListElementById("all-list-element", "Vítor Machado");
   buttonDisabled("player-btn-6");
 });
-//player pricing calculation
+//per player pricing calculation
 document.getElementById("calculate").addEventListener("click", function () {
   perPlayerPriceCalculation();
 });
