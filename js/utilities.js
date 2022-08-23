@@ -1,3 +1,4 @@
+//append un ordered list
 function setListElementById(element, name) {
   let getElement = document.getElementById(element);
   let createList = document.createElement("li");
