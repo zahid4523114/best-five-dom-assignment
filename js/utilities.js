@@ -19,7 +19,7 @@ function buttonDisabled(disabledId) {
   const button = document.getElementById(disabledId);
   button.disabled = true;
 }
-//per player price calculation
+//per player price calculate
 function perPlayerPriceCalculation() {
   let listContainer = document.querySelectorAll("li");
   let nodeLength = listContainer.length;

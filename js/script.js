@@ -32,7 +32,7 @@ document.getElementById("player-btn-6").addEventListener("click", function () {
 document.getElementById("calculate").addEventListener("click", function () {
   perPlayerPriceCalculation();
 });
-//calculate total
+//calculate total price
 document
   .getElementById("calculate-total")
   .addEventListener("click", function () {
