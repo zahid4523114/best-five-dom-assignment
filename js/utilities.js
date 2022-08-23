@@ -29,7 +29,7 @@ function perPlayerPriceCalculation() {
   let playerExpenses = document.getElementById("player-expenses");
   playerExpenses.innerText = playerExpensesPrice;
 }
-//calculate total amount
+//calculate total price amount
 function calculateTotalAmount() {
   let getManagerCost = document.getElementById("manager-price");
   let managerCostValue = Number(getManagerCost.value);
