@@ -4,7 +4,7 @@ function setListElementById(element, name) {
   let createList = document.createElement("li");
   createList.innerText = name;
   getElement.appendChild(createList);
-  //alert window
+  //alert window for selection
   let listContainer = document.querySelectorAll("li");
   let nodeLength = listContainer.length;
   if (nodeLength > 5) {
